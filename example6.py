@@ -17,3 +17,9 @@ print("Separating by spaces gives list:" , list1)
 list2 = myString.split(".")
 print("Separating by . gives list", list2)
 
+sentence = ""
+print("===")
+for i in list1:
+    print(sentence)
+    sentence = sentence + i + " "
+    print(sentence)
